@@ -11,8 +11,8 @@ const routes: Array<RouteRecordRaw> = [
     path: "/about",
     name: "about",
     // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    // un fichier js dédié (about.[hash].js) va être généré pour cette route
+    // Ce module sera téléchargé et interprété uniquement lorsque la route sera visité par le client
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },

@@ -1,0 +1,13 @@
+folder : en, fr...
+    :namefile : name of the page
+
+index.ts
+    confFIle
+message.ts 
+    import en from './en'
+    import fr from './fr'
+
+    export default {
+    en,
+    fr,
+    }

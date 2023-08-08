@@ -13,7 +13,7 @@
 - Axios (Pour les requêtes HTTP)
 - TypeScript (Pour le typage)
 
-## Fonctionnalités
+## Fonctionnalités
 
 - Affichage de la liste des courses
 - Affichage des informations d'une course
